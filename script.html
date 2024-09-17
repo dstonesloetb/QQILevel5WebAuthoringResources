@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head> 
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width;initial-scale=1">
+<title>JavaScript</title>
+<style>
+h1 { width:220px;}
+</style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Darren Stones</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">8900.00000000000</mso:Order>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Darren Stones</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x01010032641CBFDF25AB42866B8CEB3E51B539</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+<noscript>JavaScript Is Not Enabled!</noscript>
+<h1 onclick="this.innerText='Mouse Clicked!';this.style.color='Red'">Active Heading</h1>
+
+<script>
+document.getElementsByTagName('h1')[0].onmouseover =
+function ( ){ 
+this.innerText = 'Mouse Is Over' ; this.style.color='Blue' }
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
